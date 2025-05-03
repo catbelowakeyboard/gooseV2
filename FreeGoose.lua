@@ -35,7 +35,7 @@ local Window = Rayfield:CreateWindow({
 
 local Main = Window:CreateTab("Main Stuff", 4483362458) -- Title, Image file-lock-2
 local Section = Main:CreateSection("This is where most of the universal scripts are.")
-local Button = Tab:CreateButton({
+local Button = Main:CreateButton({
    Name = "Information",
    Callback = function()
    Rayfield:Notify({
