@@ -46,3 +46,9 @@ local Button = Main:CreateButton({
 })
    end,
 })
+local Button = Main:CreateButton({
+   Name = "Information",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/catbelowakeyboard/gooseV2/refs/heads/main/MainGoose.lua'))()
+   end,
+})
