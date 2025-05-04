@@ -47,7 +47,7 @@ local Button = premium:CreateButton({
 })
    end,
 })
-local Button = Tab:CreateButton({
+local Button = premium:CreateButton({
    Name = "go back",
    Callback = function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/catbelowakeyboard/gooseV2/refs/heads/main/MainGoose.lua'))()
