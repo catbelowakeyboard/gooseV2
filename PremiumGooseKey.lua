@@ -33,7 +33,7 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-   Rayfield:Notify({
+Rayfield:Notify({
    Title = "Thanks for buying premium!",
    Content = "We're greatful for the purchase.",
    Duration = 6.5,
