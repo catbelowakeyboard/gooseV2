@@ -39,12 +39,7 @@ local Divider = versions:CreateDivider()
 local Button = versions:CreateButton({
    Name = "Premium version",
    Callback = function()
-   Rayfield:Notify({
-   Title = "Uh oh!",
-   Content = "This version isnt released yet.",
-   Duration = 6.5,
-   Image = "server-crash",
-})
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/catbelowakeyboard/gooseV2/refs/heads/main/PremiumGooseKey.lua'))()
    end,
 })
 local Button = versions:CreateButton({
