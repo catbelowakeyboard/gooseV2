@@ -33,6 +33,13 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
+   Rayfield:Notify({
+   Title = "Thanks for buying premium!",
+   Content = "We're greatful for the purchase.",
+   Duration = 6.5,
+   Image = "ticket-percent",
+})
+
 local premium = Window:CreateTab("Premium", "search") -- Title, Image
 local Section = premium:CreateSection("Select your premium versions")
 local Divider = premium:CreateDivider()
